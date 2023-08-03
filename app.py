@@ -20,6 +20,7 @@ figure.update_layout(barmode='stack')
 
 # Create a Dash app
 app = dash.Dash(__name__)
+server = app.server
 
 app.layout = html.Div(children=[
     html.H1(children='Random Bar Chart'),
