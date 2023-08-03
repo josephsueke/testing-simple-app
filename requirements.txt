@@ -1,3 +1,4 @@
+pip==23.2.1
 dash==2.11.1
 dash-core-components==2.0.0
 dash-html-components==2.0.0
